@@ -15,7 +15,7 @@ This token is a JWT (JSON Web Token) composed of three parts:
 - Payload: `{"auth":1709903626143,"agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.95 Safari/537.36","role":"user","iat":1709903626}`
 - Signature: kXaVDzr3FEmIOGMSYYp6wo9PAWrkEU80WO3qzX9_ALA
 
-The header specifies the algorithm used for token signing, which in this case is HS256. This algorithm ensures the token's integrity by preventing unauthorized modifications. However, JWT also permits the use of the "none" algorithm. By changing the algorithm to "none" in the header, the server no longer verifies the signature, allowing manipulation of the token.
+The header specifies the algorithm used for token signing, which in this case is HS256. This algorithm is used to create a signature to ensures the token's integrity by preventing unauthorized modifications. However, JWT also permits the use of the "none" algorithm. By changing the algorithm to "none" in the header, the server no longer verifies the signature, allowing manipulation of the token.
 
 Thus, by modifying the token's header to:
 ```
