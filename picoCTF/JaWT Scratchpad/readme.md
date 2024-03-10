@@ -26,4 +26,4 @@ After just a few seconds we obtained the secret: ilovepico
 Now we can just modify the token, use the secret to sign it and we should be able to login as admin. To generate and sign the token I just used the handy JWT De- and Encoder on jwt.io
 ![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/5d993e3c-94b7-4fd7-ac73-195421354823)
 Once we use this token in both get Requests we should be logged in as the admin user and get the flag.
-![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/4a75bc8e-b637-4743-bec4-b121ed651da3)
+![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/aeaac431-1b0c-4cbd-acda-4e6224fc8fff)
