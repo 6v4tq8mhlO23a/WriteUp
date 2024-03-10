@@ -25,4 +25,4 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJpc3MiOiJib29rc2hlbGY
 ![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/ba0945b7-9077-4094-9b40-f65b65a387dc)
 
 And we get our Flag:
-![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/ac325e21-0928-4072-9587-f7930b684e49)
+![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/0598b4f2-c120-4fd4-aff8-1654f3b200b3)
