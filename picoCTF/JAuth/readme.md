@@ -37,4 +37,4 @@ This manipulated token successfully grants us administrative privileges, as illu
 
 And we get our flag:
 
-![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/65b204c2-c93f-4bf1-85a5-6a4c6fbdbac2)
+![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/bfd699e1-b43e-481f-86ad-bde0ca0723ab)
