@@ -20,6 +20,7 @@ So I started John the Ripper, put our JWT token into a file and used the rockyou
 john jwt.txt --wordlist=rockyou.txt --format=HMAC-SHA256
 ```
 ![grafik](https://github.com/6v4tq8mhlO23a/WriteUp/assets/76184566/84d5e36a-9e1e-484c-91af-6a079b8e7040)
+
 After just a few seconds we obtained the secret: ilovepico
 
 Now we can just modify the token, use the secret to sign it and we should be able to login as admin. To generate and sign the token I just used the handy JWT De- and Encoder on jwt.io
