@@ -1,3 +1,5 @@
+# picoCTF Buffer Overflow 1
+
 In this challenge we are supposed to use a buffer overflow to overwrite the return address and let it return to the win function. The first thing I did was looking at the source code.
 
 Here we could see the function "vuln" that uses the dangerous function gets. Gets does not check if our input exceeds the buffer size. With that we can create a buffer overflow. After the gets Function the function "get_return_address()" is called. So we basically just need to supply enough characters until we hit the return address.
