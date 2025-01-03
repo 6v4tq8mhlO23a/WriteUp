@@ -39,4 +39,4 @@ These steps are repeated multiple times in a loop, creating a race condition.
 
 ### Execution
 
-To execute this exploit, I log into the instance via SSH, create the Bash script using `nano`, and run the script. It may take a few attempts, but this method reliably retrieves the flag.
+To execute this exploit, I log into the instance via SSH, create the Bash script using `nano`, and run the script. It may take a few attempts (Took me around 15 trys), but this method reliably retrieves the flag.
