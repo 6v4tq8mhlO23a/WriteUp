@@ -13,7 +13,7 @@ I created a simple Bash script to perform this attack:
 
 FILE=/home/ctf-player/attack
 
-for i in {1..500};
+for i in {1..200};
 
 do
 
